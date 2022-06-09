@@ -28,6 +28,7 @@ function displayTemperature(response) {
   humidity = response.data.main.humidity;
   wind = response.data.wind.speed;
   description = response.data.weather[0].main;
+  cityName = response.data.name;
 
   let temperatureElement = document.querySelector("#temperature");
   temperatureElement.innerHTML = Math.round(temperature);
@@ -43,6 +44,9 @@ function displayTemperature(response) {
 
   let timeElement = document.querySelector("#time");
   timeElement.innerHTML = formatDate(response.data.dt * 1000);
+
+  let cityElement = document.querySelector("h1");
+  cityElement.innerHTML = cityName;
 }
 
 let city = "Austin";
