@@ -1,0 +1,24 @@
+ul {
+  list-style: none;
+}
+
+.container {
+  margin: 0 auto;
+}
+.mid-section {
+  border: solid #5e5b5b;
+  border-radius: 5px;
+  border-width: 1px;
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.day-description {
+  padding: 0;
+}
+
+.source-code {
+  padding: 0 373px;
+}
