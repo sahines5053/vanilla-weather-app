@@ -34,13 +34,13 @@ ul {
 }
 
 .emoji {
-  font-size: 72px;
+  font-size: 60px;
   padding: 0;
   margin: 0;
 }
 
-.temperature {
-  font-size: 64px;
+#temperature {
+  font-size: 55px;
 }
 
 .units {

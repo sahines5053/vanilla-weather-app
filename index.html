@@ -12,6 +12,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -41,7 +42,7 @@
         <div class="row">
           <div class="col-6">
             <span class="emoji">☀️</span>
-            <span class="temperature"> 67 </span>
+            <span id="temperature"> 67 </span>
             <span class="units">°C | °F</span>
           </div>
 
@@ -57,5 +58,6 @@
       </div>
       <div class="source-code">Open-source code by Stephanie Hines.</div>
     </div>
+    <script src="src/app.js"></script>
   </body>
 </html>
