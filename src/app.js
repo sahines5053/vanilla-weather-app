@@ -65,6 +65,7 @@ function search(city) {
 function handleSubmit(event) {
   event.preventDefault();
   let cityInputElement = document.querySelector("#city-input");
+  search(cityInputElement.value);
   console.log(cityInputElement.value);
 }
 
