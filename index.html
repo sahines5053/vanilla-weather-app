@@ -16,6 +16,23 @@
   <body>
     <div class="container">
       <div class="mid-section">
+        <form id="search-form">
+          <div class="row g-3">
+            <div class="col-5">
+              <input
+                type="text"
+                class="search-form"
+                id="city-input"
+                placeholder="Enter city name"
+                aria-label="Enter city name"
+              />
+            </div>
+            <div class="col-7">
+              <button class="button-search">Search</button>
+            </div>
+          </div>
+        </form>
+
         <h1>New York</h1>
         <ul class="day-description">
           <li date-time>Sunday 13:41</li>
@@ -23,11 +40,14 @@
         </ul>
         <div class="row">
           <div class="col-6">
-            <div class="emoji">☀️ 67 <span class="units">°C | °F</span></div>
+            <span class="emoji">☀️</span>
+            <span class="temperature"> 67 </span>
+            <span class="units">°C | °F</span>
           </div>
+
           <div class="col-6">
             <div class="list">
-              <ul>
+              <ul class="parameters">
                 <li class="humdity">Humidity: 63%</li>
                 <li class="wind">Wind: 4 km/h</li>
               </ul>
