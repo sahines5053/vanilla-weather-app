@@ -2,6 +2,10 @@ ul {
   list-style: none;
 }
 
+.active {
+  text-decoration: none;
+}
+
 .button-search {
   background: #1a64d6;
   color: #ffffff;
@@ -33,17 +37,6 @@ ul {
   padding: 0 373px;
 }
 
-#icon {
-  font-size: 50px;
-  padding: 0;
-  margin-top: -30px;
-}
-
-#temperature {
-  font-size: 50px;
-  margin-left: 3px;
-}
-
 .units {
   font-size: 17px;
   position: relative;
@@ -63,4 +56,19 @@ ul {
 
 .weather-temperature .active:hover {
   text-decoration: none;
+}
+
+#icon {
+  font-size: 50px;
+  padding: 0;
+  margin-top: -30px;
+}
+
+#code {
+  text-decoration: none;
+}
+
+#temperature {
+  font-size: 50px;
+  margin-left: 3px;
 }
