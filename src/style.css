@@ -37,6 +37,10 @@ ul {
   padding: 0 373px;
 }
 
+.open-source-code {
+  text-decoration: none;
+}
+
 .units {
   font-size: 17px;
   position: relative;
@@ -74,6 +78,10 @@ ul {
 
 .weather-forecast-temperature-min {
   opacity: 0.5;
+}
+
+.open-source-code:hover {
+  text-decoration: underline;
 }
 
 #icon {
